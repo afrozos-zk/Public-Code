@@ -1,14 +1,14 @@
 // Definisi Pin Sensor Ultrasonik HC-SR04
-const int trigPin = D3;
-const int echoPin = D2;
+const int trigPin = 16;
+const int echoPin = 17;
 
 // Definisi Pin Driver Motor L298N & Wemos D1 R32
-const int enA = D10;
-const int in1 = D9;
-const int in2 = D8;
-const int in3 = D7;
-const int in4 = D6;
-const int enB = D5;
+const int enA = 19;
+const int in1 = 23;
+const int in2 = 5;
+const int in3 = 13;
+const int in4 = 12;
+const int enB = 14;
 
 void setup() {
   // Inisialisasi Serial Monitor untuk debugging
